@@ -1,0 +1,52 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 15px;
+    padding: 15px;
+    background-color: bisque;
+}
+h1{
+    background-color: rgb(139, 209, 242);
+    color: azure;
+    padding: auto;
+    font-size: 400%;
+    text-align: center;
+    border-radius: 10px;
+}
+.Img{
+    border:5px solid rgb(9, 185, 243);
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    font-size: larger;
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  .tab button:hover {
+    background-color: rgb(178, 247, 208);
+  }
+
+  .tab button.active {
+    background-color: rgb(241, 23, 23);
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 22px;
+    /*height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

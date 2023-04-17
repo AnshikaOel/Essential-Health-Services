@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>blood donation</title>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center>
+<div class="container">
+  <form action="need.php" method="post">
+  <h3>WHO NEED BLOOD</h3>
+  <label> NAME:</label>
+  <input type="text" placeholder="ENTER YOUR NAME" name="n_name" required><br><br>
+
+  <label>ADDRESS:</label>
+  <input type="text" placeholder="ENTER YOUR ADDRESS" name="n_add" required><br><br>
+  <label> DATE OF BIRTH:</label>
+  <input type="date" placeholder="ENTER YOU DATE OF BIRTH" name="n_dob" required><br><br>
+
+  <label>CONTACT NO:</label>
+
+  <input type="number" placeholder="Eg:1234567890" name="n_phno" required><br><br>
+  <label for="blood group">SELECT BLOOD GROUP:</label>
+  <select name ="blood group" id="blood group" name="n_type">
+    <option value="">-SELECT YOUR BLOOD GROUP -</option>
+    <option value ="o">O+</option>
+    <option value ="A">A+</option>
+    <option value ="B">B+</option>
+    <option value ="AB+">AB+</option>
+    <option value ="O-">O-</option>
+    <option value ="A-">A-</option>
+    <option value ="B-">B-</option>
+    <option value ="AB-">AB-</option>
+  </select><br><br>
+  <label>PROBLEM</label>
+
+  <input type="text" placeholder=" WRITE YOUR PROBELM WHY YOU NEED BLOOD"  ><br><br>
+  <label>ID PROOF:</label>
+  <input type ="file" placeholder="CHOOSE YOUR FILE"  value="n_id" required><br><br>
+  <input type="submit" name="submit" value="SUBMIT">
+</form>
+</div>
+</center>
+</body>
+</html>

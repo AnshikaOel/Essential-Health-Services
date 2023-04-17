@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+    padding: 9px;
+    border: 19px;
+    border-color: black;
+    border-radius: 20px;
+    margin:4px,auto;
+    margin-right: 10px;
+}
+body{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight:200;
+    
+    
+background-color:dimgrey;
+
+}
+.container
+{
+
+
+padding: 5px;
+background-color:wheat;
+width:600px;
+}
+input[type="file"]
+{
+   
+width:auto;
+padding: 10px;
+background-color:aliceblue;
+width:330px;
+} 
+
+input[type="submit"]
+{
+    
+width:auto;
+padding: 10px;
+background-color:coral;
+width:550px;
+
+}
+h3{
+text-align: center;
+}

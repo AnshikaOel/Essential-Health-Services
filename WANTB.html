@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>want to donate blood</title>
+    <link rel="stylesheet" href="bd.css">
+</head>
+<body>
+<center>
+<div class="container">
+    <form action="donar.php" method="post">
+    <h3>WANT TO DONATE BLOOD</h3>
+    <label>  DONAR NAME:</label>
+    <input type="text" placeholder="ENTER YOUR NAME" name="d_name" required><br><br>
+    <label>GENDER:</label>
+    <input type="radio" name="GENDER" value="male"  name="d_type">MALE
+    <input type="radio" name="GENDER"  value ="FEMALE"  name="d_type"> FEMALE
+
+    <br><br>
+
+
+    <label for="blood group"  >SELECT BLOOD GROUP:</label>
+    <select name ="blood group" id="blood group"  name="d_type">
+        <option value="">-SELECT YOUR BLOOD GROUP -</option>
+
+        <option value ="o">O+</option>
+        <option value ="A">A+</option>
+        <option value ="B">B+</option>
+        <option value ="AB+">AB+</option>
+        <option value ="O-">O-</option>
+        <option value ="A-">A-</option>
+        <option value ="B-">B-</option>
+        <option value ="AB-">AB-</option>
+    </select><br><br>
+
+    <label> DATE OF BIRTH:</label>
+    <input type="date" placeholder="ENTER YOU DATE OF BIRTH"  name="d_dob" required><br><br>
+    <label>ADDRESS:</label>
+    <input type="text" placeholder="ENTER YOUR ADDRESS "  name="d_add" required><br><br>
+    <label>CONTACT NO:</label>
+
+    <input type="number" placeholder="ENTER YOUR NUMBER"  name="d_pno" required><br><br>
+    <label>ID PROOF:</label>
+    <input type ="file" placeholder="chhose a file "  name="id_p" required><br><br>
+    <label>LAST DATE OF BLOOD DONATION</label>
+    <input type="date" placeholder="enter"  name="d_don"><br><br>
+    <input type="submit" name="submit" value="SUBMIT">
+</form>
+</div>
+
+</center>
+</body>
+</html>
